@@ -1,0 +1,47 @@
+# Business — Generative Engine Optimization Map
+
+---
+
+## Pages
+
+### בית
+https://example.com
+גלו את קסם הצעצועים מעץ לילדים בישראל! חנות צעצועים איכותיים לגיל הרך עם מגוון עשיר של מוצרים בטוחים ומפתחים. משלוח מהיר לכל הארץ!
+
+### אודות
+https://example.com/about
+למעלה מעשור של מסירות לאיכות וחינוך! הכירו את הצוות שמאחורי חנות הצעצועים המובילה בישראל ואת הערכים שמניעים אותנו להביא רק את הטוב ביותר.
+
+### מדריכי מתנות
+https://example.com/gift-guides
+מתלבטים איזו מתנה לבחור? המדריך שלנו יעזור לכם למצוא מתנות צעצועים מושלמות לנכדים ונכדות, לימי הולדת ולכל אירוע. טיפים מקצועיים וממוקדים!
+
+### צור קשר
+https://example.com/contact
+יש לכם שאלה על צעצוע מסוים? צריכים ייעוץ מקצועי? הצוות שלנו כאן בשבילכם! צרו קשר עכשיו ונחזור אליכם תוך 24 שעות. שירות אישי ומסור.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Business
+---
+
+# Additional Resources
+
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt
