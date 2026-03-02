@@ -242,6 +242,234 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-showcase-section {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 16px;
+  position: relative;
+  overflow: visible;
+}
+
+.index-showcase-section .showcase-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.index-showcase-section .showcase-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.index-showcase-section .showcase-header h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 16px;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.index-showcase-section .showcase-subtitle {
+  font-size: 16px;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.index-showcase-section .categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  direction: rtl;
+}
+
+.index-showcase-section .category-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  background: var(--bg-light);
+  border: 1px solid var(--border-light);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+}
+
+.index-showcase-section .category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(11, 31, 59, 0.15);
+  border-color: var(--primary);
+}
+
+.index-showcase-section .card-image-wrapper {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.index-showcase-section .card-bg-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease;
+}
+
+.index-showcase-section .category-card:hover .card-bg-image {
+  transform: scale(1.08);
+}
+
+.index-showcase-section .card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(11, 31, 59, 0) 0%, rgba(11, 31, 59, 0.4) 100%);
+  pointer-events: none;
+}
+
+.index-showcase-section .card-content {
+  padding: 24px;
+  background: var(--bg-light);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+
+.index-showcase-section .card-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  color: var(--text-light);
+  box-shadow: 0 8px 16px rgba(37, 99, 235, 0.25);
+}
+
+.index-showcase-section .card-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  line-height: 1.3;
+  text-align: right;
+}
+
+.index-showcase-section .card-content p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 16px;
+  flex: 1;
+  text-align: right;
+}
+
+.index-showcase-section .category-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  align-self: flex-start;
+}
+
+.index-showcase-section .category-link:hover {
+  gap: 10px;
+  color: var(--secondary);
+}
+
+.index-showcase-section .category-link svg {
+  transition: transform 0.2s ease;
+}
+
+.index-showcase-section .category-link:hover svg {
+  transform: translateX(4px);
+}
+
+/* Accent variations for visual interest */
+.index-showcase-section .card-art .card-icon {
+  background: linear-gradient(135deg, #FF6B6B 0%, #FFB347 100%);
+}
+
+.index-showcase-section .card-science .card-icon {
+  background: linear-gradient(135deg, #2563EB 0%, #10B981 100%);
+}
+
+.index-showcase-section .card-imaginative .card-icon {
+  background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+}
+
+.index-showcase-section .card-board .card-icon {
+  background: linear-gradient(135deg, #10B981 0%, #14B8A6 100%);
+}
+
+.index-showcase-section .card-outdoor .card-icon {
+  background: linear-gradient(135deg, #F59E0B 0%, #EF4444 100%);
+}
+
+.index-showcase-section .card-baby .card-icon {
+  background: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .index-showcase-section {
+    padding: 60px 16px;
+  }
+
+  .index-showcase-section .showcase-header {
+    margin-bottom: 40px;
+  }
+
+  .index-showcase-section .showcase-header h2 {
+    font-size: 26px;
+  }
+
+  .index-showcase-section .showcase-subtitle {
+    font-size: 14px;
+  }
+
+  .index-showcase-section .categories-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .index-showcase-section .category-card {
+    height: 360px;
+  }
+
+  .index-showcase-section .card-image-wrapper {
+    height: 180px;
+  }
+
+  .index-showcase-section .card-content {
+    padding: 20px;
+  }
+
+  .index-showcase-section .card-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .index-showcase-section .card-content h3 {
+    font-size: 18px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -278,8 +506,7 @@
         .nav-menu li:has(.sub-menu) > .menu-group-title, nav li:has(.sub-menu) > .menu-group-title, .navbar li:has(.sub-menu) > .menu-group-title, #navMenu li:has(.sub-menu) > .menu-group-title { flex: 1 !important; min-width: 0 !important; padding: 0 !important; line-height: inherit !important; }
         .nav-menu li:has(.sub-menu) > .sub-menu, nav li:has(.sub-menu) > .sub-menu, .navbar li:has(.sub-menu) > .sub-menu, #navMenu li:has(.sub-menu) > .sub-menu { flex-basis: 100% !important; width: 100% !important; }
         .nav-menu li:has(.sub-menu) > a [class*="chevron"], .nav-menu li:has(.sub-menu) > a [class*="arrow"], .nav-menu li:has(.sub-menu) > a .fa-chevron-down, .nav-menu li:has(.sub-menu) > a .fa-angle-down, nav li:has(.sub-menu) > a [class*="chevron"], nav li:has(.sub-menu) > a [class*="arrow"], #navMenu li:has(.sub-menu) > a [class*="chevron"], #navMenu li:has(.sub-menu) > a [class*="arrow"] { display: none !important; visibility: hidden !important; }
-        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: 44px !important; background: transparent !important; border: none !important; cursor: pointer !important; color: var(--text-dark) !important; position: absolute !important; top: 50% !important; transform: translateY(-50%) !important; right: 0 !important; left: auto !important; z-index: 2 !important; }
-        [dir="rtl"] .mobile-submenu-toggle, html[lang="he"] .mobile-submenu-toggle, html[lang="ar"] .mobile-submenu-toggle { left: 0 !important; right: auto !important; }
+        .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: auto !important; background: transparent !important; border: none !important; cursor: pointer !important; color: var(--text-dark) !important; position: static !important; flex-shrink: 0 !important; align-self: stretch !important; z-index: 2 !important; padding: 0 !important; margin: 0 !important; }
         .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
         .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
         .sub-menu a { padding: 10px 0 !important; display: block !important; color: var(--text-dark) !important; }
@@ -301,16 +528,16 @@
 
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none;">
+    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display:none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" aria-label="Call">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -347,13 +574,13 @@
         המלצות מותאמות לגיל
         </li>
         <li class="index-hero-section__trust-item">
-          <svg class="index-hero-section__trust-icon" data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <svg class="index-hero-section__trust-icon" data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
           <span>אריזת מתנה מוכנה</span>
         </li>
         <li class="index-hero-section__trust-item">
-          <svg class="index-hero-section__trust-icon" data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <svg class="index-hero-section__trust-icon" data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="20 6 9 17 4 12"></polyline>
           </svg>
           <span>תמיכה מקומית מהירה</span>
@@ -366,97 +593,142 @@
     </div>
   </div>
   <div class="index-hero-section__divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,45 Q100,38 200,45 T400,42 Q500,48 600,42 T800,45 Q900,40 1000,45 T1200,42 L1200,80 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
 
-<section class="index-showcase-section" data-layout-spec="בית-showcase">
+<section class="index-showcase-section" data-layout-spec="בית-showcase" data-zappy-section="true">
   <div class="showcase-container">
-    <div class="showcase-intro">
+    <header class="showcase-header">
       <h2>קנו לפי תחום עניין</h2>
-      <p>מצאו את הצעצוע המושלם מהר יותר עם אוספים ברורים ומתאימים למתנות</p>
-    </div>
-    
-    <div class="showcase-grid">
-      <article class="category-card">
+      <p class="showcase-subtitle">מצאו את הצעצוע המושלם מהר יותר עם אוספים ברורים ומתאימים למתנות</p>
+    </header>
+
+    <div class="categories-grid">
+      <!-- Category 1: יצירה ואומנות -->
+      <article class="category-card card-art">
         <div class="card-image-wrapper">
-          <img data-placeholder="index-showcase-image-1" data-context="חומרי יצירה ואומנות לילדים - צבעים, מכחולים, נייר צבעוני, חימר, ערכות יצירה DIY על שולחן עבודה נקי עם רקע לבן" width="600" height="450" src="/assets/site-index-showcase-image-1.webp" alt="חומרי יצירה ואומנות">
+          <div class="card-bg-image" style="background-image: url('assets/site-index-showcase-image-1.webp');  background-size: cover; background-position: center;"></div>
+          <div class="card-overlay"></div>
         </div>
         <div class="card-content">
+          <div class="card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>
+              <circle cx="12" cy="12" r="3" fill="currentColor"></circle>
+            </svg>
+          </div>
           <h3>יצירה ואומנות</h3>
           <p>צבעים, חימר וערכות יצירה שמפתחים דמיון ויכולות מוטוריות עדינות</p>
-          <a href="#" class="card-link">גלו עוד <i class="fas fa-arrow-left"></i></a>
+          <a href="#" class="category-link">גלו עוד<svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
         </div>
       </article>
 
-      <article class="category-card">
+      <!-- Category 2: בנייה ומדע -->
+      <article class="category-card card-science">
         <div class="card-image-wrapper">
-          <img data-placeholder="index-showcase-image-2" data-context="משחקי בנייה וצעצועי STEM - קוביות לגו, ערכות מדע, רובוטים חינוכיים, פאזלים תלת-ממדיים על משטח לבן" width="600" height="450" src="/assets/site-index-showcase-image-2.webp" alt="משחקי בנייה וצעצועי STEM">
+          <div class="card-bg-image" style="background-image: url('assets/site-index-showcase-image-2.webp');  background-size: cover; background-position: center;"></div>
+          <div class="card-overlay"></div>
         </div>
         <div class="card-content">
+          <div class="card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="4" width="6" height="6" stroke="currentColor" stroke-width="2" fill="none"></rect>
+              <rect x="4" y="14" width="6" height="6" stroke="currentColor" stroke-width="2" fill="none"></rect>
+              <rect x="14" y="4" width="6" height="6" stroke="currentColor" stroke-width="2" fill="none"></rect>
+              <rect x="14" y="14" width="6" height="6" stroke="currentColor" stroke-width="2" fill="none"></rect>
+            </svg>
+          </div>
           <h3>בנייה ומדע</h3>
           <p>משחקי חשיבה, קוביות בנייה וערכות STEM שמעודדים למידה דרך משחק</p>
-          <a href="#" class="card-link">גלו עוד <i class="fas fa-arrow-left"></i></a>
+          <a href="#" class="category-link">גלו עוד<svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
         </div>
       </article>
 
-      <article class="category-card">
+      <!-- Category 3: משחק דמיוני -->
+      <article class="category-card card-imaginative">
         <div class="card-image-wrapper">
-          <img data-placeholder="index-showcase-image-3" data-context="צעצועי משחק דמיוני - מטבחון צעצוע, בובות, בית בובות, ערכת רופא, כלי עבודה לילדים על רקע לבן נקי" width="600" height="450" src="/assets/site-index-showcase-image-3.webp" alt="משחק דמיוני">
+          <div class="card-bg-image" style="background-image: url('assets/site-index-showcase-image-3.webp');  background-size: cover; background-position: center;"></div>
+          <div class="card-overlay"></div>
         </div>
         <div class="card-content">
+          <div class="card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2" fill="none"></circle>
+            </svg>
+          </div>
           <h3>משחק דמיוני</h3>
           <p>בובות, מטבחונים וערכות משחק תפקידים שמפתחים מיומנויות חברתיות</p>
-          <a href="#" class="card-link">גלו עוד <i class="fas fa-arrow-left"></i></a>
+          <a href="#" class="category-link">גלו עוד<svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
         </div>
       </article>
 
-      <article class="category-card">
+      <!-- Category 4: משחקי לוח -->
+      <article class="category-card card-board">
         <div class="card-image-wrapper">
-          <img data-placeholder="index-showcase-image-4" data-context="משחקי קופסה ומשחקי לוח - משחקים משפחתיים צבעוניים, קלפים, פאזלים, משחקי אסטרטגיה מסודרים יפה על משטח לבן" width="600" height="450" src="/assets/site-index-showcase-image-4.webp" alt="משחקי קופסה">
+          <div class="card-bg-image" style="background-image: url('assets/site-index-showcase-image-4.webp');  background-size: cover; background-position: center;"></div>
+          <div class="card-overlay"></div>
         </div>
         <div class="card-content">
+          <div class="card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="2" fill="none"></rect>
+              <line x1="3" y1="9" x2="21" y2="9" stroke="currentColor" stroke-width="2"></line>
+              <line x1="3" y1="15" x2="21" y2="15" stroke="currentColor" stroke-width="2"></line>
+              <line x1="9" y1="3" x2="9" y2="21" stroke="currentColor" stroke-width="2"></line>
+              <line x1="15" y1="3" x2="15" y2="21" stroke="currentColor" stroke-width="2"></line>
+            </svg>
+          </div>
           <h3>משחקי לוח</h3>
           <p>משחקי קופסה משפחתיים שמחברים דורות ומפתחים חשיבה אסטרטגית</p>
-          <a href="#" class="card-link">גלו עוד <i class="fas fa-arrow-left"></i></a>
+          <a href="#" class="category-link">גלו עוד<svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
         </div>
       </article>
 
-      <article class="category-card">
+      <!-- Category 5: כיף בחוץ -->
+      <article class="category-card card-outdoor">
         <div class="card-image-wrapper">
-          <img data-placeholder="index-showcase-image-5" data-context="צעצועים לחצר ולגינה - כדורים צבעוניים, קורקינט, אופניים לילדים, ערכת גינה לילדים על דשא ירוק עם רקע בהיר" width="600" height="450" src="/assets/site-index-showcase-image-5.webp" alt="משחק בחוץ">
+          <div class="card-bg-image" style="background-image: url('assets/site-index-showcase-image-5.webp');  background-size: cover; background-position: center;"></div>
+          <div class="card-overlay"></div>
         </div>
         <div class="card-content">
+          <div class="card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" fill="none"></circle>
+              <path d="M12 2C12 2 15 6 15 12C15 18 12 22 12 22" stroke="currentColor" stroke-width="2"></path>
+              <path d="M12 2C12 2 9 6 9 12C9 18 12 22 12 22" stroke="currentColor" stroke-width="2"></path>
+            </svg>
+          </div>
           <h3>כיף בחוץ</h3>
           <p>כדורים, קורקינטים וצעצועים לחצר שמעודדים פעילות גופנית ומשחק בריא</p>
-          <a href="#" class="card-link">גלו עוד <i class="fas fa-arrow-left"></i></a>
+          <a href="#" class="category-link">גלו עוד<svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
         </div>
       </article>
 
-      <article class="category-card">
+      <!-- Category 6: תינוקות ופעוטות -->
+      <article class="category-card card-baby">
         <div class="card-image-wrapper">
-          <img data-placeholder="index-showcase-image-6" data-context="צעצועים לתינוקות ופעוטות - משחקי התפתחות צבעוניים, טבעות ערימה, קוביות רכות, נשכנים לתינוקות על שטיח נקי עם רקע לבן" width="600" height="450" src="/assets/site-index-showcase-image-6.webp" alt="צעצועים לתינוקות">
+          <div class="card-bg-image" style="background-image: url('assets/site-index-showcase-image-6.webp');  background-size: cover; background-position: center;"></div>
+          <div class="card-overlay"></div>
         </div>
         <div class="card-content">
+          <div class="card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" width="32" height="32" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3Z" stroke="currentColor" stroke-width="2" fill="none"></path>
+              <circle cx="9" cy="10" r="1.5" fill="currentColor"></circle>
+              <circle cx="15" cy="10" r="1.5" fill="currentColor"></circle>
+              <path d="M8 14C8 14 9.5 16 12 16C14.5 16 16 14 16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+          </div>
           <h3>תינוקות ופעוטות</h3>
           <p>צעצועים בטוחים ומפתחים לגילאי 0-3 שמלווים את השלבים הראשונים</p>
-          <a href="#" class="card-link">גלו עוד <i class="fas fa-arrow-left"></i></a>
+          <a href="#" class="category-link">גלו עוד<svg width="16" height="16" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
         </div>
       </article>
     </div>
-  </div>
-  
-  <div class="showcase-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <filter id="diagonal-shadow" x="-50%" y="-50%" width="200%" height="200%">
-          <fedropshadow dx="0" dy="2" stdDeviation="3" flood-color="rgba(11,31,59,0.08)"></fedropshadow>
-        </filter>
-      </defs>
-      <path d="M0,80 L0,0 L1200,20 L1200,80 Z" fill="var(--bg-light)" filter="url(#diagonal-shadow)"></path>
-    </svg>
   </div>
 </section>
 
@@ -470,7 +742,7 @@
     <div class="index-benefits-cards">
       <div class="index-benefits-card">
         <div class="index-benefits-card-header">
-          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="16" cy="16" r="14" fill="currentColor" opacity="0.15"></circle>
             <path d="M16 8v8m0 0v8m0-8h8m-8 0H8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
           </svg>
@@ -486,7 +758,7 @@
 
       <div class="index-benefits-card">
         <div class="index-benefits-card-header">
-          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="6" y="8" width="20" height="16" rx="2" fill="currentColor" opacity="0.15"></rect>
             <path d="M10 14l4 3 8-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M16 24v4m-6 0h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
@@ -503,7 +775,7 @@
 
       <div class="index-benefits-card">
         <div class="index-benefits-card-header">
-          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="16" cy="12" r="5" fill="currentColor" opacity="0.15"></circle>
             <path d="M16 7v5m0 0v5m0-5h5m-5 0h-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
             <path d="M8 24c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
@@ -521,9 +793,9 @@
   </div>
   
   <div class="index-benefits-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 40" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <pattern id="confetti-dots" x="0" y="0" width="60" height="40" patternUnits="userSpaceOnUse">
+        <pattern id="confetti-dots" x="0" y="0" width="60" height="40" patternunits="userSpaceOnUse">
           <circle cx="10" cy="20" r="2" fill="var(--primary)" opacity="0.3"></circle>
           <circle cx="30" cy="10" r="1.5" fill="var(--secondary)" opacity="0.25"></circle>
           <circle cx="45" cy="25" r="1.8" fill="var(--accent)" opacity="0.2"></circle>
@@ -600,14 +872,14 @@
 
   <!-- Bottom gradient divider -->
   <div class="index-portfolio-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 180" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 180" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="portfolio-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FFFFFF;stop-"></stop>
           <stop offset="100%" style="stop-color:#0B1220;stop-opacity:1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,180 L0,0 L1200,0 L1200,180 Z" fill="var(--bg-light)"></path>
+      <path d="M0,180 L0,0 L1200,0 L1200,180 Z" fill="var(--bg-dark)"></path>
     </svg>
   </div>
 </section>
