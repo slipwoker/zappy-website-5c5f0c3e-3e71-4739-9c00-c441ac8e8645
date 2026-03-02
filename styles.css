@@ -5307,6 +5307,274 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* Added Component Styles */
+.features-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  font-family: Rubik, Assistant, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.features-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.features-subtitle {
+  font-size: 1.125rem;
+  color: #666;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+  border: 3px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 4px;
+  transition: height 0.3s ease;
+}
+
+.feature-card-blue {
+  border-color: #2563EB;
+}
+
+.feature-card-blue::before {
+  background: linear-gradient(90deg, #2563EB 0%, #1d4ed8 100%);
+}
+
+.feature-card-blue .feature-icon {
+  color: #2563EB;
+}
+
+.feature-card-green {
+  border-color: #10b981;
+}
+
+.feature-card-green::before {
+  background: linear-gradient(90deg, #10b981 0%, #059669 100%);
+}
+
+.feature-card-green .feature-icon {
+  color: #10b981;
+}
+
+.feature-card-purple {
+  border-color: #8b5cf6;
+}
+
+.feature-card-purple::before {
+  background: linear-gradient(90deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.feature-card-purple .feature-icon {
+  color: #8b5cf6;
+}
+
+.feature-card-orange {
+  border-color: #f59e0b;
+}
+
+.feature-card-orange::before {
+  background: linear-gradient(90deg, #f59e0b 0%, #d97706 100%);
+}
+
+.feature-card-orange .feature-icon {
+  color: #f59e0b;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card:hover::before {
+  height: 8px;
+}
+
+.feature-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  background: rgba(37, 99, 235, 0.1);
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.feature-card-blue .feature-icon {
+  background: rgba(37, 99, 235, 0.1);
+}
+
+.feature-card-green .feature-icon {
+  background: rgba(16, 185, 129, 0.1);
+}
+
+.feature-card-purple .feature-icon {
+  background: rgba(139, 92, 246, 0.1);
+}
+
+.feature-card-orange .feature-icon {
+  background: rgba(245, 158, 11, 0.1);
+}
+
+.feature-card:hover .feature-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.feature-image-wrapper {
+  width: 100%;
+  height: 200px;
+  margin: 24px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f3f4f6;
+}
+
+.feature-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-image {
+  transform: scale(1.05);
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 12px;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features-section {
+    padding: 60px 16px;
+  }
+
+  .features-title {
+    font-size: 2rem;
+  }
+
+  .features-subtitle {
+    font-size: 1rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .feature-card {
+    padding: 24px 20px;
+  }
+
+  .feature-title {
+    font-size: 1.25rem;
+  }
+
+  .feature-description {
+    font-size: 0.9375rem;
+  }
+
+  .feature-image-wrapper {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-section {
+    padding: 40px 12px;
+  }
+
+  .features-title {
+    font-size: 1.75rem;
+  }
+
+  .features-header {
+    margin-bottom: 40px;
+  }
+
+  .feature-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .feature-icon svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .feature-card,
+  .feature-icon,
+  .feature-image,
+  .feature-card::before {
+    transition: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .feature-card {
+    border-width: 2px;
+  }
+  
+  .feature-title,
+  .feature-description {
+    color: #000;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
