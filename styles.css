@@ -5307,28 +5307,13 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
-.index-showcase-section .card-art {
-  border: 2.5px solid var(--accent-color);
-}
-
-.index-showcase-section .card-science {
-  border: 2.5px solid var(--primary-color);
-}
-
-.index-showcase-section .card-imaginative {
-  border: 2.5px solid #8B5CF6;
-}
-
-.index-showcase-section .card-board {
-  border: 2.5px solid var(--secondary-color);
-}
-
-.index-showcase-section .card-outdoor {
-  border: 2.5px solid #F59E0B;
-}
-
-.index-showcase-section .card-baby {
-  border: 2.5px solid #EC4899;
+.index-showcase-section .card-art .card-icon svg,
+.index-showcase-section .card-science .card-icon svg,
+.index-showcase-section .card-imaginative .card-icon svg,
+.index-showcase-section .card-board .card-icon svg,
+.index-showcase-section .card-outdoor .card-icon svg,
+.index-showcase-section .card-baby .card-icon svg {
+  display: none;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
