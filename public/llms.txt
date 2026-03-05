@@ -20,6 +20,18 @@ https://example.com/gift-guides
 https://example.com/contact
 יש לכם שאלה על צעצוע מסוים? צריכים ייעוץ מקצועי? הצוות שלנו כאן בשבילכם! צרו קשר עכשיו ונחזור אליכם תוך 24 שעות. שירות אישי ומסור.
 
+### Products
+https://example.com/products
+המוצרים שלנו - צעצועי ממד
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - צעצועי ממד
+
+### Category
+https://example.com/category/:slug
+מוצרים - צעצועי ממד
+
 ## Legal & Policy
 
 ### Privacy Policy
