@@ -1019,6 +1019,232 @@
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-portfolio-section {
+  position: relative;
+  background: var(--bg-light);
+  color: var(--text-dark);
+  padding: 80px 24px 0;
+  overflow: visible;
+  direction: rtl;
+}
+
+.index-portfolio-section .index-portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 160px;
+}
+
+/* ── Header ── */
+.index-portfolio-section .index-portfolio-header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.index-portfolio-section .index-portfolio-title {
+  font-family: Rubik, Assistant, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-dark);
+  margin: 0 0 14px;
+  letter-spacing: -0.01em;
+}
+
+.index-portfolio-section .index-portfolio-subtitle {
+  font-family: Assistant, Rubik, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ── Grid ── */
+.index-portfolio-section .index-portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  direction: rtl;
+}
+
+/* ── Tile ── */
+.index-portfolio-section .index-portfolio-tile {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid var(--border-light);
+  box-shadow: 0 8px 18px rgba(61,32,0,0.07);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.index-portfolio-section .index-portfolio-tile:hover {
+  box-shadow: 0 18px 42px rgba(61,32,0,0.14);
+  transform: translateY(-4px);
+}
+
+/* ── Figure / Image ── */
+.index-portfolio-section .index-portfolio-figure {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  aspect-ratio: 3 / 2;
+  background: #f0ece4;
+}
+
+.index-portfolio-section .index-portfolio-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.index-portfolio-section .index-portfolio-tile:hover .index-portfolio-figure img {
+  transform: scale(1.04);
+}
+
+/* ── Tile Content ── */
+.index-portfolio-section .index-portfolio-tile-content {
+  padding: 28px 28px 32px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: right;
+}
+
+.index-portfolio-section .index-portfolio-tile-title {
+  font-family: Rubik, Assistant, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin: 0 0 12px;
+}
+
+.index-portfolio-section .index-portfolio-tile-desc {
+  font-family: Assistant, Rubik, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0 0 20px;
+}
+
+/* ── Bullets ── */
+.index-portfolio-section .index-portfolio-bullets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: auto;
+  border-top: 1px solid var(--border-light);
+  padding-top: 18px;
+}
+
+.index-portfolio-section .index-portfolio-bullets li {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 6px;
+  font-family: Assistant, Rubik, system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--text-dark);
+  text-align: right;
+}
+
+.index-portfolio-section .index-portfolio-bullets li::before {
+  content: '●';
+  color: var(--primary);
+  font-size: 0.55rem;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+.index-portfolio-section .index-portfolio-bullets .bullet-label {
+  font-weight: 700;
+  color: var(--primary);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ── Bottom Gradient Fade Divider ── */
+.index-portfolio-section .index-portfolio-fade-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 160px;
+  pointer-events: none;
+  z-index: 5;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(61, 32, 0, 0.08) 40%,
+    rgba(61, 32, 0, 0.55) 75%,
+    var(--bg-dark) 100%
+  );
+}
+
+/* ── Desktop Grid (3 columns) ── */
+@media (min-width: 768px) {
+  .index-portfolio-section {
+    padding: 100px 40px 0;
+  }
+
+  .index-portfolio-section .index-portfolio-container {
+    padding-bottom: 180px;
+  }
+
+  .index-portfolio-section .index-portfolio-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+  }
+
+  .index-portfolio-section .index-portfolio-title {
+    font-size: 2rem;
+  }
+
+  .index-portfolio-section .index-portfolio-fade-divider {
+    height: 180px;
+  }
+}
+
+/* ── Mobile ── */
+@media (max-width: 767px) {
+  .index-portfolio-section {
+    padding: 60px 16px 0;
+  }
+
+  .index-portfolio-section .index-portfolio-container {
+    padding-bottom: 140px;
+  }
+
+  .index-portfolio-section .index-portfolio-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px;
+  }
+
+  .index-portfolio-section .index-portfolio-tile-content {
+    padding: 20px 20px 24px;
+  }
+
+  .index-portfolio-section .index-portfolio-header {
+    margin-bottom: 36px;
+  }
+
+  .index-portfolio-section .index-portfolio-fade-divider {
+    height: 120px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -1080,10 +1306,10 @@
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
-          <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
         </button>
         <button class="close-search" id="close-mobile-search">
-          <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"></path></svg>
         </button>
       </div>
       <div class="search-results" id="mobile-search-results"></div>
@@ -1092,16 +1318,16 @@
 <script>window.ZAPPY_WEBSITE_ID = "5c5f0c3e-3e71-4739-9c00-c441ac8e8645";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "http://localhost:5001" : "https://qaapi.zappy5.com");</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display:none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" aria-label="Call">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -1118,7 +1344,7 @@
     <li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
         מוצרים
-        <svg class="dropdown-arrow" width="12" height="12" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
@@ -1130,10 +1356,10 @@
   <li><a href="/about">אודות</a></li><li><a href="/gift-guides">מדריכי מתנות</a></li><li><a href="/contact">צור קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div>
     
     
   </div>
@@ -1169,7 +1395,7 @@
 
   <!-- Bottom Wave Divider -->
   <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,80 L0,48 Q60,36 120,44 T240,38 Q300,42 360,34 T480,40 Q540,36 600,44 T720,38 Q780,42 840,34 T960,40 Q1020,36 1080,44 T1200,38 Q1260,42 1320,36 T1440,42 L1440,80 Z" fill="#F6F8FB"></path>
     </svg>
   </div>
@@ -1208,7 +1434,7 @@
     <div class="index-benefits-grid">
       <div class="index-benefits-card">
         <div class="index-benefits-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="2.5" fill="none"></circle>
             <path d="M32 16v16l10 6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <circle cx="32" cy="32" r="3" fill="currentColor"></circle>
@@ -1225,7 +1451,7 @@
 
       <div class="index-benefits-card">
         <div class="index-benefits-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 28L32 12L48 28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <rect x="20" y="26" width="24" height="26" stroke="currentColor" stroke-width="2.5" fill="none"></rect>
             <path d="M28 52V40h8v12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
@@ -1243,7 +1469,7 @@
 
       <div class="index-benefits-card">
         <div class="index-benefits-icon-wrapper">
-          <svg data-element-type="icon" data-icon-type="svg" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="32" cy="24" r="10" stroke="currentColor" stroke-width="2.5" fill="none"></circle>
             <path d="M18 52c0-8 6-14 14-14s14 6 14 14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
             <path d="M48 32c3 0 6 3 6 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
@@ -1262,7 +1488,7 @@
   </div>
 
   <div class="index-benefits-decorative-shape">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="100" cy="100" r="80" stroke="currentColor" stroke-width="1.5" opacity="0.15"></circle>
       <circle cx="100" cy="100" r="60" stroke="currentColor" stroke-width="1.5" opacity="0.12"></circle>
       <circle cx="100" cy="100" r="40" stroke="currentColor" stroke-width="1.5" opacity="0.08"></circle>
@@ -1270,72 +1496,59 @@
   </div>
 </section>
 
-<section class="features-section" dir="rtl" data-zappy-component="true" id="ai-section-1772444619132-gbyyxxe">
-  <div class="features-container">
-    <div class="features-header">
-      <h2 class="features-title">למה לבחור בצעצועי עץ?</h2>
-      <p class="features-subtitle">גלו את היתרונות המיוחדים של צעצועי העץ שלנו</p>
+<section class="index-portfolio-section" data-layout-spec="בית-portfolio" dir="rtl" id="ai-section-1772444619132-gbyyxxe">
+  <div class="index-portfolio-container">
+    <div class="index-portfolio-header">
+      <h2 class="index-portfolio-title">השראה לכל גיל ורגע</h2>
+      <p class="index-portfolio-subtitle">צעצועים שמייצרים חיוכים, זיכרונות ורגעים בלתי נשכחים — לכל ילד, לכל הזדמנות</p>
     </div>
-    
-    <div class="features-grid">
-      <div class="feature-card feature-card-blue">
-        <div class="feature-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2v20M2 12h20"></path>
-          </svg>
+    <div class="index-portfolio-grid">
+      <!-- Tile 1 -->
+      <article class="index-portfolio-tile">
+        <figure class="index-portfolio-figure">
+          <img data-context="Colorful wooden building blocks and creative toys arranged artfully on a clean white surface, warm natural light, lifestyle minimal photography for a toy store, bright oranges and yellows, cheerful and inviting atmosphere" width="600" height="400" src="/assets/section-בית-portfolio-index-portfolio-image-1.webp" alt="צעצועי בנייה ויצירה לילדים" data-zappy-editable-image="true">
+        </figure>
+        <div class="index-portfolio-tile-content">
+          <h3 class="index-portfolio-tile-title">צעצועי יצירה ובנייה</h3>
+          <p class="index-portfolio-tile-desc">מגרשי דמיון בתוך קופסה אחת — צעצועים שמפתחים יצירתיות, מיומנויות מוטוריות ואהבה ללמידה דרך משחק.</p>
+          <ul class="index-portfolio-bullets">
+            <li><span class="bullet-label">מתאים ל:</span> ילדים בגיל 2–8, אוהבי בנייה וצבע</li>
+            <li><span class="bullet-label">הזדמנות:</span> יום הולדת, חנוכת הבית, מתנת גן</li>
+          </ul>
         </div>
-        <div class="feature-image-wrapper">
-          <img data-placeholder="feature-quality-1" data-context="High quality wooden toy showing natural wood grain texture and craftsmanship, close-up detail shot in warm natural lighting" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF0083;stop-opacity:1' /%3E%3Cstop offset='100%25' y2='100%25'%3E%3Cstop offset='100%25' style='stop-color:%23FF008320;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='16' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3EClick to add image%3C/text%3E%3C/svg%3E" alt="איכות מעולה" data-zappy-editable-image="true" class="feature-image">
+      </article>
+      <!-- Tile 2 -->
+      <article class="index-portfolio-tile">
+        <figure class="index-portfolio-figure">
+          <img data-context="Children playing with interactive educational toys and puzzles on a cozy rug, soft warm lighting, lifestyle minimal photography for a toy retail store, joyful family scene, modern Scandinavian style" width="600" height="400" src="/assets/section-בית-portfolio-index-portfolio-image-2.webp" alt="משחקי חשיבה ולוחות חינוכיים" data-zappy-editable-image="true">
+        </figure>
+        <div class="index-portfolio-tile-content">
+          <h3 class="index-portfolio-tile-title">משחקי חשיבה וחינוך</h3>
+          <p class="index-portfolio-tile-desc">פאזלים, משחקי קופסה ולוחות לוגיקה שמאתגרים את המוח — כי הכיף הכי גדול הוא להתקדם יחד.</p>
+          <ul class="index-portfolio-bullets">
+            <li><span class="bullet-label">מתאים ל:</span> ילדים בגיל 4–12, ילדים סקרנים</li>
+            <li><span class="bullet-label">הזדמנות:</span> חנוכה, סוף שנה, ערבי משפחה</li>
+          </ul>
         </div>
-        <h3 class="feature-title">איכות מעולה</h3>
-        <p class="feature-description">צעצועים עשויים מעץ מלא באיכות פרמיום, עמידים ובטוחים לשימוש יומיומי</p>
-      </div>
-
-      <div class="feature-card feature-card-green">
-        <div class="feature-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a8 8 0 0 1 4.3 0l-2.05 3.95H23a10 10 0 0 0-11-9z"></path>
-            <path d="M2.05 11a10 10 0 0 0 19.9 0"></path>
-          </svg>
+      </article>
+      <!-- Tile 3 -->
+      <article class="index-portfolio-tile">
+        <figure class="index-portfolio-figure">
+          <img data-context="Plush stuffed animals and soft toys beautifully arranged in a gift wrapping setting with warm golden tones, ribbon and wrapping paper, lifestyle minimal toy store photography, cozy and heartwarming mood" width="600" height="400" src="/assets/section-בית-portfolio-index-portfolio-image-3.webp" alt="בובות ומתנות רכות לתינוקות וילדים" data-zappy-editable-image="true">
+        </figure>
+        <div class="index-portfolio-tile-content">
+          <h3 class="index-portfolio-tile-title">בובות ומתנות רכות</h3>
+          <p class="index-portfolio-tile-desc">חיבוקים בצורת בובה — בובות פרווה, דמויות אהובות ומתנות רכות שמלוות את הילד בכל רגע של נחמה ואהבה.</p>
+          <ul class="index-portfolio-bullets">
+            <li><span class="bullet-label">מתאים ל:</span> תינוקות ופעוטות, כל גיל</li>
+            <li><span class="bullet-label">הזדמנות:</span> לידה, ברית, מתנה מהלב</li>
+          </ul>
         </div>
-        <div class="feature-image-wrapper">
-          <img data-placeholder="feature-eco-1" data-context="Eco-friendly wooden toys with green leaves and natural elements, sustainable materials concept, bright natural daylight" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF0083;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23FF008320;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='16' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3EClick to add image%3C/text%3E%3C/svg%3E" alt="ידידותי לסביבה" data-zappy-editable-image="true" class="feature-image">
-        </div>
-        <h3 class="feature-title">ידידותי לסביבה</h3>
-        <p class="feature-description">עץ טבעי ממקורות מקיימים, צבעים אקולוגיים ללא רעלים</p>
-      </div>
-
-      <div class="feature-card feature-card-purple">
-        <div class="feature-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"></circle>
-            <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
-            <line x1="9" y1="9" x2="9.01" y2="9"></line>
-            <line x1="15" y1="9" x2="15.01" y2="9"></line>
-          </svg>
-        </div>
-        <div class="feature-image-wrapper">
-          <img data-placeholder="feature-development-1" data-context="Happy children playing with educational wooden toys, developing motor skills and creativity, colorful playroom setting" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF0083;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23FF008320;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='16' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3EClick to add image%3C/text%3E%3C/svg%3E" alt="מפתח יצירתיות" data-zappy-editable-image="true" class="feature-image">
-        </div>
-        <h3 class="feature-title">מפתח יצירתיות</h3>
-        <p class="feature-description">צעצועים המעודדים משחק חופשי ופיתוח דמיון אצל הילדים</p>
-      </div>
-
-      <div class="feature-card feature-card-orange">
-        <div class="feature-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-            <polyline points="22 4 12 14.01 9 11.01"></polyline>
-          </svg>
-        </div>
-        <div class="feature-image-wrapper">
-          <img data-placeholder="feature-safety-1" data-context="Safe wooden toy with rounded edges and smooth finish, safety certification badge visible, clean white background" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='300'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23FF0083;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23FF008320;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='16' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3EClick to add image%3C/text%3E%3C/svg%3E" alt="בטיחות מקסימלית" data-zappy-editable-image="true" class="feature-image">
-        </div>
-        <h3 class="feature-title">בטיחות מקסימלית</h3>
-        <p class="feature-description">עומדים בכל תקני הבטיחות הבינלאומיים, ללא חלקים קטנים מסוכנים</p>
-      </div>
+      </article>
     </div>
   </div>
+  <!-- Bottom gradient fade divider -->
+  <div class="index-portfolio-fade-divider" aria-hidden="true"></div>
 </section>
 
 
@@ -1350,7 +1563,7 @@
     <div class="index-benefits-cards">
       <div class="index-benefits-card">
         <div class="index-benefits-card-header">
-          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="16" cy="16" r="14" fill="currentColor" opacity="0.15"></circle>
             <path d="M16 8v8m0 0v8m0-8h8m-8 0H8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
           </svg>
@@ -1366,7 +1579,7 @@
 
       <div class="index-benefits-card">
         <div class="index-benefits-card-header">
-          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="6" y="8" width="20" height="16" rx="2" fill="currentColor" opacity="0.15"></rect>
             <path d="M10 14l4 3 8-6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
             <path d="M16 24v4m-6 0h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
@@ -1383,7 +1596,7 @@
 
       <div class="index-benefits-card">
         <div class="index-benefits-card-header">
-          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg data-element-type="icon" data-icon-type="svg" class="index-benefits-icon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="16" cy="12" r="5" fill="currentColor" opacity="0.15"></circle>
             <path d="M16 7v5m0 0v5m0-5h5m-5 0h-5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
             <path d="M8 24c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
@@ -1401,9 +1614,9 @@
   </div>
   
   <div class="index-benefits-divider-wrapper">
-    <svg aria-hidden="true" viewbox="0 0 1200 40" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <pattern id="confetti-dots" x="0" y="0" width="60" height="40" patternunits="userSpaceOnUse">
+        <pattern id="confetti-dots" x="0" y="0" width="60" height="40" patternUnits="userSpaceOnUse">
           <circle cx="10" cy="20" r="2" fill="var(--primary)" opacity="0.3"></circle>
           <circle cx="30" cy="10" r="1.5" fill="var(--secondary)" opacity="0.25"></circle>
           <circle cx="45" cy="25" r="1.8" fill="var(--accent)" opacity="0.2"></circle>
@@ -1480,7 +1693,7 @@
 
   <!-- Bottom gradient divider -->
   <div class="index-portfolio-divider-wrapper">
-    <svg aria-hidden="true" viewbox="0 0 1200 180" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewBox="0 0 1200 180" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="portfolio-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#FFFFFF;stop-"></stop>
