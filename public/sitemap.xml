@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://example.com/about</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/about</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/gift-guides</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/gift-guides</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/contact</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/contact</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/products</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/products</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/product/:slug</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/product/:slug</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/category/:slug</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/category/:slug</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://example.com/privacy</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://example.com/terms</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/privacy</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/accessibility</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/terms</loc>
     <lastmod>2026-05-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://example.com/product/tst-3-06b4xv</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/accessibility</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tzaatzuei-mamed.zappy5.app/product/tst-3-06b4xv</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/tst-2-s5hnr3</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/product/tst-2-s5hnr3</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://example.com/product/tst-y2c96d</loc>
+    <loc>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

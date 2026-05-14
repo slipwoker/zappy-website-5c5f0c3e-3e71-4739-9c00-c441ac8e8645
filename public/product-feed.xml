@@ -2,14 +2,14 @@
 <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
   <channel>
     <title>צעצועי ממד</title>
-    <link>https://example.com</link>
+    <link>https://tzaatzuei-mamed.zappy5.app</link>
     <description>Product feed for צעצועי ממד</description>
-    <lastBuildDate>Thu, 14 May 2026 10:40:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 13:30:59 GMT</lastBuildDate>
     <item>
       <g:id>4e352b0f-1b6a-4eb4-bf85-00970706e1a6</g:id>
       <g:title>טסט 3</g:title>
       <g:description>טסט 3</g:description>
-      <g:link>https://example.com/product/tst-3-06b4xv</g:link>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-3-06b4xv</g:link>
       <g:availability>in_stock</g:availability>
       <g:price>0.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -21,7 +21,7 @@
       <g:id>98ddf64b-7ef0-49d6-a04e-b8bae9b54fae</g:id>
       <g:title>טסט 2</g:title>
       <g:description>טסט 2</g:description>
-      <g:link>https://example.com/product/tst-2-s5hnr3</g:link>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-2-s5hnr3</g:link>
       <g:availability>in_stock</g:availability>
       <g:price>0.00 ILS</g:price>
       <g:condition>new</g:condition>
@@ -33,7 +33,7 @@
       <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:id>
       <g:title>טסט</g:title>
       <g:description>טסט</g:description>
-      <g:link>https://example.com/product/tst-y2c96d</g:link>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
       <g:availability>in_stock</g:availability>
       <g:price>0.00 ILS</g:price>
       <g:condition>new</g:condition>

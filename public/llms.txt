@@ -7,45 +7,45 @@
 ## Pages
 
 ### בית
-https://example.com
+https://tzaatzuei-mamed.zappy5.app
 גלו את קסם הצעצועים מעץ לילדים בישראל! חנות צעצועים איכותיים לגיל הרך עם מגוון עשיר של מוצרים בטוחים ומפתחים. משלוח מהיר לכל הארץ!
 
 ### אודות
-https://example.com/about
+https://tzaatzuei-mamed.zappy5.app/about
 למעלה מעשור של מסירות לאיכות וחינוך! הכירו את הצוות שמאחורי חנות הצעצועים המובילה בישראל ואת הערכים שמניעים אותנו להביא רק את הטוב ביותר.
 
 ### מדריכי מתנות
-https://example.com/gift-guides
+https://tzaatzuei-mamed.zappy5.app/gift-guides
 מתלבטים איזו מתנה לבחור? המדריך שלנו יעזור לכם למצוא מתנות צעצועים מושלמות לנכדים ונכדות, לימי הולדת ולכל אירוע. טיפים מקצועיים וממוקדים!
 
 ### צור קשר
-https://example.com/contact
+https://tzaatzuei-mamed.zappy5.app/contact
 יש לכם שאלה על צעצוע מסוים? צריכים ייעוץ מקצועי? הצוות שלנו כאן בשבילכם! צרו קשר עכשיו ונחזור אליכם תוך 24 שעות. שירות אישי ומסור.
 
 ### Products
-https://example.com/products
+https://tzaatzuei-mamed.zappy5.app/products
 המוצרים שלנו - צעצועי ממד
 
 ### Product Detail
-https://example.com/product/:slug
+https://tzaatzuei-mamed.zappy5.app/product/:slug
 פרטי המוצר - צעצועי ממד
 
 ### Category
-https://example.com/category/:slug
+https://tzaatzuei-mamed.zappy5.app/category/:slug
 מוצרים - צעצועי ממד
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://tzaatzuei-mamed.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://tzaatzuei-mamed.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://tzaatzuei-mamed.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -55,19 +55,19 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 3**
 
 ### טסט 3
-https://example.com/product/tst-3-06b4xv
+https://tzaatzuei-mamed.zappy5.app/product/tst-3-06b4xv
 - Price: 0.00 ILS
 - Availability: In stock
 - Category: sub test 2
 
 ### טסט 2
-https://example.com/product/tst-2-s5hnr3
+https://tzaatzuei-mamed.zappy5.app/product/tst-2-s5hnr3
 - Price: 0.00 ILS
 - Availability: In stock
 - Category: sub test 2
 
 ### טסט
-https://example.com/product/tst-y2c96d
+https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d
 - Price: 0.00 ILS
 - Availability: In stock
 
@@ -90,8 +90,8 @@ https://example.com/product/tst-y2c96d
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://tzaatzuei-mamed.zappy5.app/sitemap.xml
+- Robots: https://tzaatzuei-mamed.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://tzaatzuei-mamed.zappy5.app/llms-full.txt
+- Products (JSON): https://tzaatzuei-mamed.zappy5.app/products.json
+- Products (Google Merchant RSS): https://tzaatzuei-mamed.zappy5.app/product-feed.xml

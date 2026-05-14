@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-14T10:40:56.667Z",
-  "base_url": "https://example.com",
+  "generated_at": "2026-05-14T13:30:59.541Z",
+  "base_url": "https://tzaatzuei-mamed.zappy5.app",
   "currency": "ILS",
   "count": 3,
   "products": [
@@ -21,7 +21,7 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/tst-3-06b4xv",
+      "url": "https://tzaatzuei-mamed.zappy5.app/product/tst-3-06b4xv",
       "categories": [
         "sub test 2"
       ],
@@ -43,7 +43,7 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/tst-2-s5hnr3",
+      "url": "https://tzaatzuei-mamed.zappy5.app/product/tst-2-s5hnr3",
       "categories": [
         "sub test 2"
       ],
@@ -65,7 +65,7 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/tst-y2c96d",
+      "url": "https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d",
       "categories": [],
       "updated_at": "2026-03-19T11:34:48.654Z"
     }
