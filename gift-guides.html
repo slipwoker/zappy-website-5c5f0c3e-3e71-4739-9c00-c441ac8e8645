@@ -219,13 +219,16 @@
 </script>
 <!-- End Zappy Analytics -->
     <meta property="og:title" content="מדריך המתנות המושלם לכל גיל ואירוע — צעצועי ממד">
-  <meta property="og:description" content="מתלבטים איזו מתנה לבחור? המדריך שלנו יעזור לכם למצוא מתנות צעצועים מושלמות לנכדים ונכדות, לימי הולדת ולכל אירוע. טיפים מקצועיים וממוקדים!">
-  <meta property="og:type" content="website">
+    <meta property="og:description" content="מתלבטים איזו מתנה לבחור? המדריך שלנו יעזור לכם למצוא מתנות צעצועים מושלמות לנכדים ונכדות, לימי הולדת ולכל אירוע. טיפים מקצועיים וממוקדים!">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="מדריך המתנות המושלם לכל גיל ואירוע — צעצועי ממד">
+    <meta name="twitter:description" content="מתלבטים איזו מתנה לבחור? המדריך שלנו יעזור לכם למצוא מתנות צעצועים מושלמות לנכדים ונכדות, לימי הולדת ולכל אירוע. טיפים מקצועיים וממוקדים!">
+    <meta property="og:type" content="website">
   <meta property="og:locale" content="he_IL">
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="מדריך המתנות המושלם לכל גיל ואירוע — צעצועי ממד">
-  <meta name="twitter:description" content="מתלבטים איזו מתנה לבחור? המדריך שלנו יעזור לכם למצוא מתנות צעצועים מושלמות לנכדים ונכדות, לימי הולדת ולכל אירוע. טיפים מקצועיים וממוקדים!">
+  
+  
+  
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -255,11 +258,14 @@
       /* Submenu item styling */
       .sub-menu li { list-style: none; margin: 0; padding: 0; }
       .sub-menu a { display: block !important; padding: 10px 16px !important; color: var(--text-dark, #333) !important; font-weight: 500; text-decoration: none; white-space: nowrap; transition: background-color 0.2s; }
+      .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
+      [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 10px !important; padding-right: 28px !important; }
+      .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
       .sub-menu a:hover { background-color: #f5f5f5; }
       /* RTL (Hebrew/Arabic) dropdown positioning */
       [dir="rtl"] .nav-menu .sub-menu, [dir="rtl"] nav .sub-menu, [dir="rtl"] .navbar .sub-menu, html[lang="he"] .nav-menu .sub-menu, html[lang="he"] nav .sub-menu, html[lang="he"] .navbar .sub-menu, html[lang="ar"] .nav-menu .sub-menu, html[lang="ar"] nav .sub-menu, html[lang="ar"] .navbar .sub-menu { left: auto !important; right: 0 !important; }
-      /* Hide empty dropdown menus */
-      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))), .sub-menu:not(:has(li)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
+      /* Hide empty dropdown menus (exclude catalog sub-menus that use <a> children instead of <li>) */
+      .sub-menu:empty, .sub-menu:not(:has(li:not(.zappy-hidden-menu-item))):not(:has(> a)), .sub-menu:not(:has(li)):not(:has(> a)) { display: none !important; opacity: 0 !important; visibility: hidden !important; pointer-events: none !important; }
       /* Desktop: show submenu on Menu Group hover */
       li:has(.menu-group-title):hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
       /* Menu Group title styling */
@@ -268,7 +274,7 @@
       /* ========== MOBILE SUBMENU STYLES ========== */
       @media (max-width: 768px) {
         .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { position: static !important; transform: none !important; box-shadow: none !important; background: transparent !important; max-height: 0; overflow: hidden; opacity: 0; visibility: hidden; transition: max-height 0.3s ease, opacity 0.3s ease; padding: 0 !important; border-radius: 0 !important; }
-        .sub-menu.mobile-expanded { max-height: 500px !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
+        .navbar .sub-menu.mobile-expanded, .nav-menu .sub-menu.mobile-expanded, #navMenu .sub-menu.mobile-expanded { max-height: none !important; overflow-y: visible !important; opacity: 1 !important; visibility: visible !important; padding: 8px 0 8px 16px !important; }
         [dir="rtl"] .sub-menu.mobile-expanded, html[lang="he"] .sub-menu.mobile-expanded { padding: 8px 16px 8px 0 !important; }
         /* Disable hover behavior on mobile */
         .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 0; visibility: hidden; pointer-events: none; }
@@ -281,18 +287,48 @@
         .mobile-submenu-toggle { display: flex !important; align-items: center !important; justify-content: center !important; width: 44px !important; height: auto !important; background: transparent !important; border: none !important; cursor: pointer !important; color: var(--text-dark) !important; position: static !important; flex-shrink: 0 !important; align-self: stretch !important; z-index: 2 !important; padding: 0 !important; margin: 0 !important; }
         .mobile-submenu-toggle::after { content: '' !important; width: 0 !important; height: 0 !important; border-left: 6px solid transparent !important; border-right: 6px solid transparent !important; border-top: 7px solid currentColor !important; transition: transform 0.3s ease !important; }
         .mobile-submenu-toggle.expanded::after { transform: rotate(180deg) !important; }
-        .sub-menu a { padding: 10px 0 !important; display: block !important; color: var(--text-dark) !important; }
+        .sub-menu a { padding: 10px 0 !important; display: block !important; color: var(--text-dark) !important; white-space: normal !important; }
+        .sub-menu .zappy-nav-child > a { padding-left: 28px !important; font-size: 0.9em !important; opacity: 0.85 !important; }
+        [dir="rtl"] .sub-menu .zappy-nav-child > a, html[lang="he"] .sub-menu .zappy-nav-child > a, html[lang="ar"] .sub-menu .zappy-nav-child > a { padding-left: 0 !important; padding-right: 28px !important; }
+        .sub-menu .zappy-nav-parent > a { font-weight: 600 !important; }
+        .nav-menu.active, #navMenu.active { max-width: 100vw !important; overflow-x: hidden !important; box-sizing: border-box !important; }
         .navbar .sub-menu li a, nav.navbar .sub-menu li a, .zappy-products-dropdown .sub-menu a { color: var(--text-dark) !important; }
       }
       @media (min-width: 769px) { .mobile-submenu-toggle { display: none !important; } }
     </style>
 
     <style id="zappy-widget-visibility">
-      #mic-access-tool-general-button, .mic-access-tool-general-button,
-      #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
-      ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
-      #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
-        display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+      html[dir="rtl"] .whatsapp-float { right: 20px !important; left: auto !important; }
+      html[dir="ltr"] .whatsapp-float, html:not([dir]) .whatsapp-float { left: 20px !important; right: auto !important; }
+      html[dir="rtl"] #mic-access-tool-general-button, html[dir="rtl"] .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="rtl"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="rtl"] ._access-icon { left: 20px !important; right: auto !important; }
+      html[dir="ltr"] #mic-access-tool-general-button, html[dir="ltr"] .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool .mic-access-tool-general-button,
+      html[dir="ltr"] #mic-init-access-tool #mic-access-tool-general-button,
+      html[dir="ltr"] ._access-icon,
+      html:not([dir]) #mic-access-tool-general-button, html:not([dir]) .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool .mic-access-tool-general-button,
+      html:not([dir]) #mic-init-access-tool #mic-access-tool-general-button,
+      html:not([dir]) ._access-icon { right: 20px !important; left: auto !important; }
+      @media (max-width: 768px) { .whatsapp-float { display: flex !important; } }
+      @media (min-width: 769px) { .whatsapp-float { display: flex !important; } }
+      @media (max-width: 768px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
+      }
+      @media (min-width: 769px) {
+        #mic-access-tool-general-button, .mic-access-tool-general-button,
+        #mic-init-access-tool .mic-access-tool-general-button, #mic-init-access-tool #mic-access-tool-general-button,
+        ._access-icon, #mic-access-tool-box, .mic-access-tool-box,
+        #mic-init-access-tool #mic-access-tool-box, div[id*="mic-access-tool-box"], ._access-menu {
+          display: none !important; visibility: hidden !important; opacity: 0 !important; pointer-events: none !important;
+        }
       }
     </style>
 </head>
@@ -312,7 +348,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "5c5f0c3e-3e71-4739-9c00-c441ac8e8645";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "http://localhost:5001" : "https://qaapi.zappy5.com");</script>
+<script>window.ZAPPY_WEBSITE_ID = "5c5f0c3e-3e71-4739-9c00-c441ac8e8645";window.ZAPPY_API_BASE = "https://qaapi.zappy5.com";</script>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
@@ -423,77 +459,77 @@
       <h2>המדריכים הפופולריים שלנו</h2>
     </div>
     
-    <div class="gift-guides-collections-grid zappy-preserve-css-grid" style="display: grid; grid-template-columns: repeat(4, minmax(0px, 1fr));" id="zappy-auto-grid-1774082604764-u5gjsq" data-zappy-auto-grid="true" data-original-item-width="588" data-original-gap="24px" data-zappy-explicit-columns="true"><article class="gift-guide-card">
+    <div class="gift-guides-collections-grid zappy-preserve-css-grid" style="--zappy-grid-cols: repeat(4, minmax(0px, 1fr)); display: grid; grid-template-columns: repeat(4, minmax(0px, 1fr));" id="zappy-auto-grid-1774082604764-u5gjsq" data-zappy-auto-grid="true" data-original-item-width="588" data-original-gap="24px" data-zappy-explicit-columns="true"><article class="gift-guide-card">
         <div class="gift-guide-image-wrapper">
-          <img data-placeholder="gift-guides-collections-image-1" data-context="A clean product grouping photo on white background showing colorful baby toys and soft plush items suitable for ages 1-2, including rattles, soft blocks, and teething toys arranged in an attractive display for a toy store catalog" width="600" height="400" src="/assets/site-gift-guides-collections-image-1.webp" alt="צעצועים לגילאי 1-2" data-element-type="image" data-element-id="img-1774082604758-e0oad102m" class="zappy-editable-image" data-original-position="static" style="position: relative;">
+          <img data-placeholder="gift-guides-collections-image-1" data-context="A clean product grouping photo on white background showing colorful baby toys and soft plush items suitable for ages 1-2, including rattles, soft blocks, and teething toys arranged in an attractive display for a toy store catalog" width="600" height="400" src="/assets/site-gift-guides-collections-image-1.webp" alt="צעצועים לגילאי 1-2" data-element-type="image" data-element-id="img-1774082604758-e0oad102m" class="zappy-editable-image" >
         </div>
         <div class="gift-guide-content">
           <h3 class="zappy-editable">גילאי 1-2</h3>
           <p class="zappy-editable">צעצועים רכים ובטוחים שמפתחים חושים ומיומנויות מוטוריות ראשונות</p>
-          <a href="/contact" class="btn-primary btn-guide zappy-editable" data-element-type="button" data-element-id="btn-1774082604757-f4s3bv901" data-native-element="true">בקשו המלצות</a>
+          <a href="/contact" class="btn-primary btn-guide" data-element-type="button" data-element-id="btn-1774082604757-f4s3bv901" data-native-element="true">בקשו המלצות</a>
         </div>
       </article><article class="gift-guide-card">
         <div class="gift-guide-image-wrapper">
-          <img data-placeholder="gift-guides-collections-image-2" data-context="Product grouping on white background featuring educational toys for ages 3-4, including wooden puzzles, building blocks, and colorful learning games arranged in a clean catalog-style layout" width="600" height="400" src="/assets/site-gift-guides-collections-image-2.webp" alt="צעצועים לגילאי 3-4" data-element-type="image" data-element-id="img-1774082604758-c9zsjgi1g" class="zappy-editable-image" data-original-position="static" style="position: relative;">
+          <img data-placeholder="gift-guides-collections-image-2" data-context="Product grouping on white background featuring educational toys for ages 3-4, including wooden puzzles, building blocks, and colorful learning games arranged in a clean catalog-style layout" width="600" height="400" src="/assets/site-gift-guides-collections-image-2.webp" alt="צעצועים לגילאי 3-4" data-element-type="image" data-element-id="img-1774082604758-c9zsjgi1g" class="zappy-editable-image" >
         </div>
         <div class="gift-guide-content">
           <h3 class="zappy-editable">גילאי 3-4</h3>
           <p class="zappy-editable">משחקים חינוכיים ומפתחים שמעודדים דמיון, למידה ויצירתיות</p>
-          <a href="/contact" class="btn-primary btn-guide zappy-editable" data-element-type="button" data-element-id="btn-1774082604757-mh1s3ublm" data-native-element="true">בקשו המלצות</a>
+          <a href="/contact" class="btn-primary btn-guide" data-element-type="button" data-element-id="btn-1774082604757-mh1s3ublm" data-native-element="true">בקשו המלצות</a>
         </div>
       </article><article class="gift-guide-card">
         <div class="gift-guide-image-wrapper">
-          <img data-placeholder="gift-guides-collections-image-3" data-context="Clean product photo on white background showing toys for ages 5-7, including board games, science kits, art supplies, and interactive learning toys arranged in an organized retail display" width="600" height="400" src="/assets/site-gift-guides-collections-image-3.webp" alt="צעצועים לגילאי 5-7" data-element-type="image" data-element-id="img-1774082604758-tbb9k38os" class="zappy-editable-image" data-original-position="static" style="position: relative;">
+          <img data-placeholder="gift-guides-collections-image-3" data-context="Clean product photo on white background showing toys for ages 5-7, including board games, science kits, art supplies, and interactive learning toys arranged in an organized retail display" width="600" height="400" src="/assets/site-gift-guides-collections-image-3.webp" alt="צעצועים לגילאי 5-7" data-element-type="image" data-element-id="img-1774082604758-tbb9k38os" class="zappy-editable-image" >
         </div>
         <div class="gift-guide-content">
           <h3 class="zappy-editable">גילאי 5-7</h3>
           <p class="zappy-editable">משחקים מאתגרים וחווייתיים שמתאימים לילדי בית ספר יסודי</p>
-          <a href="/contact" class="btn-primary btn-guide zappy-editable" data-element-type="button" data-element-id="btn-1774082604757-yimlmsu78" data-native-element="true">בקשו המלצות</a>
+          <a href="/contact" class="btn-primary btn-guide" data-element-type="button" data-element-id="btn-1774082604757-yimlmsu78" data-native-element="true">בקשו המלצות</a>
         </div>
       </article><article class="gift-guide-card">
         <div class="gift-guide-image-wrapper">
-          <img data-placeholder="gift-guides-collections-image-4" data-context="Product grouping on white background featuring toys for ages 8-10, including STEM kits, advanced building sets, strategy games, and creative hobby supplies in a professional catalog layout" width="600" height="400" src="/assets/site-gift-guides-collections-image-4.webp" alt="צעצועים לגילאי 8-10" data-element-type="image" data-element-id="img-1774082604758-i366tvhh8" class="zappy-editable-image" data-original-position="static" style="position: relative;">
+          <img data-placeholder="gift-guides-collections-image-4" data-context="Product grouping on white background featuring toys for ages 8-10, including STEM kits, advanced building sets, strategy games, and creative hobby supplies in a professional catalog layout" width="600" height="400" src="/assets/site-gift-guides-collections-image-4.webp" alt="צעצועים לגילאי 8-10" data-element-type="image" data-element-id="img-1774082604758-i366tvhh8" class="zappy-editable-image" >
         </div>
         <div class="gift-guide-content">
           <h3 class="zappy-editable">גילאי 8-10</h3>
           <p class="zappy-editable">צעצועים מתקדמים ומשחקי אסטרטגיה לילדים בוגרים יותר</p>
-          <a href="/contact" class="btn-primary btn-guide zappy-editable" data-element-type="button" data-element-id="btn-1774082604757-dv2iin6ks" data-native-element="true">בקשו המלצות</a>
+          <a href="/contact" class="btn-primary btn-guide" data-element-type="button" data-element-id="btn-1774082604757-dv2iin6ks" data-native-element="true">בקשו המלצות</a>
         </div>
       </article><article class="gift-guide-card">
         <div class="gift-guide-image-wrapper">
-          <img data-placeholder="gift-guides-collections-image-5" data-context="Clean white background product photo showing creative toys including art supplies, craft kits, painting sets, clay modeling tools, and DIY project materials arranged attractively" width="600" height="400" src="/assets/site-gift-guides-collections-image-5.webp" alt="צעצועים לילדים יצירתיים" data-element-type="image" data-element-id="img-1774082604758-798n5paa4" class="zappy-editable-image" data-original-position="static" style="position: relative;">
+          <img data-placeholder="gift-guides-collections-image-5" data-context="Clean white background product photo showing creative toys including art supplies, craft kits, painting sets, clay modeling tools, and DIY project materials arranged attractively" width="600" height="400" src="/assets/site-gift-guides-collections-image-5.webp" alt="צעצועים לילדים יצירתיים" data-element-type="image" data-element-id="img-1774082604758-798n5paa4" class="zappy-editable-image" >
         </div>
         <div class="gift-guide-content">
           <h3 class="zappy-editable">לילדים יצירתיים</h3>
           <p class="zappy-editable">ערכות יצירה, אמנות וכלי עבודה שמעוררים השראה ויצירתיות</p>
-          <a href="/contact" class="btn-primary btn-guide zappy-editable" data-element-type="button" data-element-id="btn-1774082604757-i0hzrofnc" data-native-element="true">בקשו המלצות</a>
+          <a href="/contact" class="btn-primary btn-guide" data-element-type="button" data-element-id="btn-1774082604757-i0hzrofnc" data-native-element="true">בקשו המלצות</a>
         </div>
       </article><article class="gift-guide-card">
         <div class="gift-guide-image-wrapper">
-          <img data-placeholder="gift-guides-collections-image-6" data-context="Product grouping on white background featuring building toys including LEGO sets, wooden construction blocks, magnetic tiles, and engineering kits arranged in a clean retail catalog style" width="600" height="400" src="/assets/site-gift-guides-collections-image-6.webp" alt="צעצועים לבנאים" data-element-type="image" data-element-id="img-1774082604758-ubik4zwi3" class="zappy-editable-image" data-original-position="static" style="position: relative;">
+          <img data-placeholder="gift-guides-collections-image-6" data-context="Product grouping on white background featuring building toys including LEGO sets, wooden construction blocks, magnetic tiles, and engineering kits arranged in a clean retail catalog style" width="600" height="400" src="/assets/site-gift-guides-collections-image-6.webp" alt="צעצועים לבנאים" data-element-type="image" data-element-id="img-1774082604758-ubik4zwi3" class="zappy-editable-image" >
         </div>
         <div class="gift-guide-content">
           <h3 class="zappy-editable">לבנאים</h3>
           <p class="zappy-editable">קוביות בנייה, לגו וערכות הרכבה למהנדסים הצעירים שלנו</p>
-          <a href="/contact" class="btn-primary btn-guide zappy-editable" data-element-type="button" data-element-id="btn-1774082604757-r987k6gep" data-native-element="true">בקשו המלצות</a>
+          <a href="/contact" class="btn-primary btn-guide" data-element-type="button" data-element-id="btn-1774082604757-r987k6gep" data-native-element="true">בקשו המלצות</a>
         </div>
       </article><article class="gift-guide-card">
         <div class="gift-guide-image-wrapper">
-          <img data-placeholder="gift-guides-collections-image-7" data-context="Clean white background photo showing family board games, card games, party games, and group activity sets arranged in an organized catalog-style display for a toy store" width="600" height="400" src="/assets/site-gift-guides-collections-image-7.webp" alt="משחקים משפחתיים" data-element-type="image" data-element-id="img-1774082604758-b3uk3kp6r" class="zappy-editable-image" data-original-position="static" style="position: relative;">
+          <img data-placeholder="gift-guides-collections-image-7" data-context="Clean white background photo showing family board games, card games, party games, and group activity sets arranged in an organized catalog-style display for a toy store" width="600" height="400" src="/assets/site-gift-guides-collections-image-7.webp" alt="משחקים משפחתיים" data-element-type="image" data-element-id="img-1774082604758-b3uk3kp6r" class="zappy-editable-image" >
         </div>
         <div class="gift-guide-content">
           <h3 class="zappy-editable">ערב משחקים משפחתי</h3>
           <p class="zappy-editable">משחקי קופסה ומשחקי קלפים לבילוי איכותי עם כל המשפחה</p>
-          <a href="/contact" class="btn-primary btn-guide zappy-editable" data-element-type="button" data-element-id="btn-1774082604757-5wisv9xwk" data-native-element="true">בקשו המלצות</a>
+          <a href="/contact" class="btn-primary btn-guide" data-element-type="button" data-element-id="btn-1774082604757-5wisv9xwk" data-native-element="true">בקשו המלצות</a>
         </div>
       </article><article class="gift-guide-card">
         <div class="gift-guide-image-wrapper">
-          <img data-placeholder="gift-guides-collections-image-8" data-context="Product grouping on white background featuring outdoor and active toys including sports equipment, jump ropes, frisbees, outdoor games, and physical activity toys in a clean retail catalog layout" width="600" height="400" src="/assets/site-gift-guides-collections-image-8.webp" alt="צעצועים לפעילות חוץ" data-element-type="image" data-element-id="img-1774082604758-oqrmf0o8z" class="zappy-editable-image" data-original-position="static" style="position: relative;">
+          <img data-placeholder="gift-guides-collections-image-8" data-context="Product grouping on white background featuring outdoor and active toys including sports equipment, jump ropes, frisbees, outdoor games, and physical activity toys in a clean retail catalog layout" width="600" height="400" src="/assets/site-gift-guides-collections-image-8.webp" alt="צעצועים לפעילות חוץ" data-element-type="image" data-element-id="img-1774082604758-oqrmf0o8z" class="zappy-editable-image" >
         </div>
         <div class="gift-guide-content">
           <h3 class="zappy-editable">פעילות חוץ ותנועה</h3>
           <p class="zappy-editable">ציוד ספורט ומשחקי חוץ שמעודדים תנועה ופעילות גופנית</p>
-          <a href="/contact" class="btn-primary btn-guide zappy-editable" data-element-type="button" data-element-id="btn-1774082604757-8of7g7yt3" data-native-element="true">בקשו המלצות</a>
+          <a href="/contact" class="btn-primary btn-guide" data-element-type="button" data-element-id="btn-1774082604757-8of7g7yt3" data-native-element="true">בקשו המלצות</a>
         </div>
       </article></div>
   </div>

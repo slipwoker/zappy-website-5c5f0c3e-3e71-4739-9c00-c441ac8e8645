@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "generated_at": "2026-05-14T10:40:56.667Z",
+  "base_url": "https://example.com",
+  "currency": "ILS",
+  "count": 3,
+  "products": [
+    {
+      "id": "4e352b0f-1b6a-4eb4-bf85-00970706e1a6",
+      "slug": "tst-3-06b4xv",
+      "name": "טסט 3",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tst-3-06b4xv",
+      "categories": [
+        "sub test 2"
+      ],
+      "updated_at": "2026-03-27T07:33:40.845Z"
+    },
+    {
+      "id": "98ddf64b-7ef0-49d6-a04e-b8bae9b54fae",
+      "slug": "tst-2-s5hnr3",
+      "name": "טסט 2",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tst-2-s5hnr3",
+      "categories": [
+        "sub test 2"
+      ],
+      "updated_at": "2026-03-27T07:33:27.282Z"
+    },
+    {
+      "id": "e5d7b0d3-f90b-4d6d-bae5-14788ec32f98",
+      "slug": "tst-y2c96d",
+      "name": "טסט",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tst-y2c96d",
+      "categories": [],
+      "updated_at": "2026-03-19T11:34:48.654Z"
+    }
+  ]
+}

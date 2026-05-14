@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# צעצועי ממד — Generative Engine Optimization Map
+
+> תייצר לי אתר לחנות צעצועים שלי
 
 ---
 
@@ -48,12 +50,48 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## Products
 
-## About Business
+**Total active products: 3**
+
+### טסט 3
+https://example.com/product/tst-3-06b4xv
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: sub test 2
+
+### טסט 2
+https://example.com/product/tst-2-s5hnr3
+- Price: 0.00 ILS
+- Availability: In stock
+- Category: sub test 2
+
+### טסט
+https://example.com/product/tst-y2c96d
+- Price: 0.00 ILS
+- Availability: In stock
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+## About צעצועי ממד
+תייצר לי אתר לחנות צעצועים שלי
+
+## Target Audience
+- הורים מודעים לבריאות
+- סבים וסבתות רוכשי מתנות
+- משפחות צעירות עירוניות
+
+## Industry
+קמעונאות
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
