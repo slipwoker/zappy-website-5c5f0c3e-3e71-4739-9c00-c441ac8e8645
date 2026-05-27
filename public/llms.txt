@@ -34,6 +34,10 @@ https://tzaatzuei-mamed.zappy5.app/product/:slug
 https://tzaatzuei-mamed.zappy5.app/category/:slug
 מוצרים - צעצועי ממד
 
+### חוות דעת לקוחות
+https://tzaatzuei-mamed.zappy5.app/testimonials
+צעצועי ממד - חוות דעת לקוחות
+
 ## Legal & Policy
 
 ### Privacy Policy
