@@ -12742,7 +12742,8 @@ main,
 }
 
 .index-hero-section .index-hero-card {
-  backdrop-filter: none !important;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 80, 180, 0.45);
 }
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
