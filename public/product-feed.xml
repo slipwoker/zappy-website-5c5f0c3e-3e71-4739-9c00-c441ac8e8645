@@ -4,7 +4,7 @@
     <title>צעצועי ממד</title>
     <link>https://tzaatzuei-mamed.zappy5.app</link>
     <description>Product feed for צעצועי ממד</description>
-    <lastBuildDate>Thu, 14 May 2026 16:40:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 09:21:13 GMT</lastBuildDate>
     <item>
       <g:id>4e352b0f-1b6a-4eb4-bf85-00970706e1a6</g:id>
       <g:title>טסט 3</g:title>
@@ -30,10 +30,359 @@
       <g:product_type>sub test 2</g:product_type>
     </item>
     <item>
-      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:id>
-      <g:title>טסט</g:title>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__c6866be3-2f07-4f49-9e2c-ebdcb31e419c</g:id>
+      <g:title>טסט - XXL / ברזל</g:title>
       <g:description>טסט</g:description>
       <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__d535d708-dead-4e02-aae1-d8962a0cb55c</g:id>
+      <g:title>טסט - XS / ברזל</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__491656e6-e599-49e8-814f-502f74224878</g:id>
+      <g:title>טסט - XS / Wood</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__dcbd0a28-5011-449c-816a-21d900715817</g:id>
+      <g:title>טסט - XS / Leather</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__9cb41c22-a5af-4ae7-b074-29227a1951bd</g:id>
+      <g:title>טסט - XS / Polyester</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__c4223e8f-67dc-493b-a4e1-4da701e26d7e</g:id>
+      <g:title>טסט - XS / Cotton</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__319ebb99-28cc-4cca-aa30-d629eb56cbf0</g:id>
+      <g:title>טסט - S / Cotton</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__b37e1548-22f2-4e65-8632-cdb33e178a96</g:id>
+      <g:title>טסט - S / Polyester</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__9ff474e7-09ef-4132-a2b6-761e911d9cce</g:id>
+      <g:title>טסט - S / Leather</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__bee9a9d9-4865-461f-a1cb-f46bf8ad5595</g:id>
+      <g:title>טסט - S / Wood</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__eb92a9ea-1fc6-48e2-af95-b7141bbd3a4f</g:id>
+      <g:title>טסט - S / ברזל</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__539f2ee2-36be-48c0-8165-70d3f1cd50eb</g:id>
+      <g:title>טסט - M / Cotton</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__73485d4f-5226-40b0-97f7-86fb31d03788</g:id>
+      <g:title>טסט - M / Polyester</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__0c15932b-6af1-48e5-bdcc-e0a3b1af71ad</g:id>
+      <g:title>טסט - M / Leather</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__a306ea01-351d-494d-9f96-cfb9c783cd27</g:id>
+      <g:title>טסט - M / Wood</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__6db9a9e5-8f3d-45d7-95b8-9574f1247481</g:id>
+      <g:title>טסט - M / ברזל</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__9a77ce0a-4d2d-46a3-97a8-355916d6946e</g:id>
+      <g:title>טסט - L / Cotton</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__11744138-18c0-4cb8-a11a-42f239c49432</g:id>
+      <g:title>טסט - L / Polyester</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__5a5fb89b-cdd0-4f22-bffd-8f903dfd2a10</g:id>
+      <g:title>טסט - L / Leather</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__e96e01ad-2e3f-4e0b-9778-0c43aba6bb9a</g:id>
+      <g:title>טסט - L / Wood</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__fcfb43ba-44c6-41e2-a89f-ba19256231f6</g:id>
+      <g:title>טסט - L / ברזל</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__b3afa054-48dc-4776-86d0-d1805f8ce340</g:id>
+      <g:title>טסט - XL / Cotton</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__d347d56f-ea68-4d72-8a84-2adffa094bac</g:id>
+      <g:title>טסט - XL / Polyester</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__a30a20a5-b2e6-4fb8-816a-21570cc55f4f</g:id>
+      <g:title>טסט - XL / Leather</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__0c298d56-9f0f-4c33-bdfd-6b28dd20bf33</g:id>
+      <g:title>טסט - XL / Wood</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__721d8c38-6838-4af6-a92a-fbee63718495</g:id>
+      <g:title>טסט - XL / ברזל</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__f6afa48f-764b-465d-b847-9c9f5d2ba806</g:id>
+      <g:title>טסט - XXL / Cotton</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__21f8c5cb-5968-4670-9430-215b79456a2e</g:id>
+      <g:title>טסט - XXL / Polyester</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__d42048db-3e4a-45cf-b806-68ba7c30c793</g:id>
+      <g:title>טסט - XXL / Leather</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>0.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>צעצועי ממד</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98__0005bdcf-9fdb-4aec-8c50-8199c8b77dda</g:id>
+      <g:title>טסט - XXL / Wood</g:title>
+      <g:description>טסט</g:description>
+      <g:link>https://tzaatzuei-mamed.zappy5.app/product/tst-y2c96d</g:link>
+      <g:item_group_id>e5d7b0d3-f90b-4d6d-bae5-14788ec32f98</g:item_group_id>
       <g:availability>in_stock</g:availability>
       <g:price>0.00 ILS</g:price>
       <g:condition>new</g:condition>
