@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-24T14:15:14.809Z",
+  "generated_at": "2026-06-24T14:21:40.234Z",
   "base_url": "https://tzaatzuei-mamed.zappy5.app",
   "currency": "ILS",
   "count": 3,
@@ -29,7 +29,7 @@
     },
     {
       "id": "98ddf64b-7ef0-49d6-a04e-b8bae9b54fae",
-      "slug": "tst-2-ppvtp0",
+      "slug": "tst-2-cgxyot",
       "name": "טסט 2",
       "name_translations": {},
       "description": "",
@@ -43,11 +43,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://tzaatzuei-mamed.zappy5.app/product/tst-2-ppvtp0",
+      "url": "https://tzaatzuei-mamed.zappy5.app/product/tst-2-cgxyot",
       "categories": [
         "sub test 2"
       ],
-      "updated_at": "2026-06-24T14:11:28.121Z"
+      "updated_at": "2026-06-24T14:21:05.435Z"
     },
     {
       "id": "e5d7b0d3-f90b-4d6d-bae5-14788ec32f98",
