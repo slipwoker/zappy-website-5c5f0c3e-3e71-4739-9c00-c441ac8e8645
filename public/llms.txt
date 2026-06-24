@@ -65,8 +65,8 @@ https://tzaatzuei-mamed.zappy5.app/product/tst-3-06b4xv
 - Category: sub test 2
 
 ### טסט 2
-https://tzaatzuei-mamed.zappy5.app/product/tst-2-s5hnr3
-- Price: 0.00 ILS
+https://tzaatzuei-mamed.zappy5.app/product/tst-2-ppvtp0
+- Price: 10.00 ILS
 - Availability: In stock
 - Category: sub test 2
 
